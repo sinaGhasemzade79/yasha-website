@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Studies | Coming Soon</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #cdc6ed, #4a3aff);
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      backdrop-filter: blur(6px);
+      animation: fadeIn 1s ease-out;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      h1 { font-size: 1.6rem; }
+      p { font-size: 1rem; }
+      .container { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+    <header>
+  <nav class="navbar">
+    <div class="logo">
+        <a href="#begin">
+            <img src="assets/images/logo.svg" alt="Yasha Logo">
+        </a>
+    </div>
+    <div class="logo_s">
+        <a href="#begin">
+            <img src="assets/images/logo_s.svg" alt="Yasha Logo">
+        </a>
+    </div>
+    <ul class="nav-links button" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#contact" class="">Contact Us</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+</header>
+
+  <div class="container" id="case">
+    <h1>Case Studies</h1>
+    <p>We’re working on something exciting!<br>Our case studies will be updated soon.</p>
+    <div>
+<a href="index.html" class="btn-secondary button" id="back">Go back!</a>
+</div>
+  </div>
+
+  
+</body>
+</html>
